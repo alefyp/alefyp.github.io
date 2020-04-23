@@ -14,7 +14,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
+  font-family: 'Roboto Mono', monospace;
   font-size: 100%;
   vertical-align: baseline;
 }
