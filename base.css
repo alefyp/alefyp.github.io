@@ -26,6 +26,7 @@ body {
 }
 
 h1 {
+  font-family: 'Roboto Mono', monospace;
   font-size: 14vw;
   display: block;
   text-align: center;
@@ -38,6 +39,7 @@ h1 {
 }
 
 p {
+  font-family: 'Roboto Mono', monospace;
   display: block;
   margin-bottom: 1em;
 }
