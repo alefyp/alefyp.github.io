@@ -7,16 +7,16 @@ const Projects = (props) => {
         <h2>Projects</h2>
         <ul>
           <li>
-            <span className="underline--magical">BURGERQUEEN!</span>
+            <span className="underline--magical">BurgerQueen!</span>
           </li>
           <li>
-            <span className="underline--magical">CHAMPSGG</span>
+            <span className="underline--magical">ChampsGg</span>
           </li>
           <li>
-            <span className="underline--magical">MUSICMOOD</span>
+            <span className="underline--magical">MusicMood</span>
           </li>
           <li>
-            <span className="underline--magical">MDLINKS</span>
+            <span className="underline--magical">MdLinks</span>
           </li>
         </ul>
       </div>
