@@ -1,0 +1,11 @@
+%grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr repeat(12, 1fr) 0.5fr;
+  grid-template-rows: repeat(8, 1fr);
+  height: 100vh;
+}
+
+.section{
+  @extend %grid-container;
+  background-color: rgb(50, 156, 205);
+}

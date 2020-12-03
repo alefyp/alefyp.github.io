@@ -4,31 +4,19 @@
   padding: 0;
 }
 
-%grid-container {
-  display: grid;
-  grid-template-columns: 0.5fr repeat(12, 1fr) 0.5fr;
-  grid-template-rows: repeat(8, 1fr);
-  height: 100vh;
+body::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.137);
+  background-color: rgba(129, 129, 129, 0.507);
 }
 
-#section1{
-  @extend %grid-container;
-  background-color: yellowgreen;
+body::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #ffffff00;
 }
 
-#section2{
-  @extend %grid-container;
-  background-color: rosybrown;
-}
-
-#section3{
-  @extend %grid-container;
-  background-color: royalblue;
-}
-
-#navbar{
-  position: fixed;
-}
-.active{
-  background-color: red;
+body::-webkit-scrollbar-thumb
+{
+  background-color: #000000a2;
 }

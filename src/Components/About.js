@@ -1,8 +1,9 @@
 import React from "react";
+import styles from './about.module.scss';
 
 const About = (props) => {
   return (
-    <div className="section-content" id={props.id}>
+    <div className={styles.section} id={props.id}>
       <div className="div1">
        <h1>Hello.</h1>
           

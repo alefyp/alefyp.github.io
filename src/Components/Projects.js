@@ -1,8 +1,9 @@
 import React from "react";
+import styles from './projects.module.scss';
 
 const Projects = (props) => {
   return (
-    <div id={props.id}>
+    <div className={styles.section} id={props.id}>
       <div className="div1">
         <h2>Projects</h2>
         <ul>

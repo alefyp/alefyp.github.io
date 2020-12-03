@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import styles from './navbar.module.scss';
 
 export default class Navbar extends Component {
   scrollToTop = () => {
@@ -8,11 +9,11 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="nav" id="navbar">
+      <nav className={styles.nav} id="navbar">
         <ul className="nav-items">
           <li className="nav-item">
             <Link
-              activeClass="active"
+              activeClass={styles.active}
               to="section1"
               spy={true}
               smooth={true}
@@ -24,7 +25,7 @@ export default class Navbar extends Component {
           </li>
           <li className="nav-item">
             <Link
-              activeClass="active"
+              activeClass={styles.active}
               to="section2"
               spy={true}
               smooth={true}
@@ -36,7 +37,7 @@ export default class Navbar extends Component {
           </li>
           <li className="nav-item">
             <Link
-              activeClass="active"
+              activeClass={styles.active}
               to="section3"
               spy={true}
               smooth={true}
