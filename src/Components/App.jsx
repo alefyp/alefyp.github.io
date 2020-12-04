@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navbar from './Navbar';
 import About from './About';
 import Projects from './Projects';
@@ -6,11 +6,11 @@ import Contact from './Contact';
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className="App">
       <Navbar />
-      <About id='section1' />
-      <Projects id='section2' />
-      <Contact id='section3' />
+      <About id="section1" />
+      <Projects id="section2" />
+      <Contact id="section3" />
     </div>
   );
 };

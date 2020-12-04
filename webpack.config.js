@@ -8,10 +8,13 @@ module.exports = {
     contentBase: './dist',
     open: true,
   },
-  entry: './src/index.js',
+  entry: './src/index.jsx',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
   module: {
     rules: [
@@ -65,7 +68,3 @@ module.exports = {
     }),
   ],
 };
-
-//import img from './file.png';
-//import styles from "./style.css";
-//import styles from "./style.scss"; or modules since is auto true

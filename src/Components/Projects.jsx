@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
 import styles from './projects.module.scss';
 
-const Projects = (props) => {
+// eslint-disable-next-line react/prop-types
+const Projects = ({ id }) => {
   return (
-    <div className={styles.section} id={props.id}>
+    <div className={styles.section} id={id}>
       <div className="div1">
         <h2>Projects</h2>
         <ul>
@@ -23,10 +24,7 @@ const Projects = (props) => {
       </div>
       <div className="div2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.{" "}
+          Lorem ipsum
         </p>
       </div>
       <div className="div3">
