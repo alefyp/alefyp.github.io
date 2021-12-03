@@ -35,6 +35,10 @@ p {
   padding-bottom: 0.8rem;
 }
 
+.pronouns {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .gradient-text {
   background-color: #000000;
   background-image: linear-gradient(
