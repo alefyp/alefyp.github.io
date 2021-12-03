@@ -1,4 +1,4 @@
-### Alefy.me
+### Alefy.xyz
 
 All random commits have a reason for beign. 
 
